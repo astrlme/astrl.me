@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme{
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+}
+
+body{
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: Space-Mono, monospace;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
