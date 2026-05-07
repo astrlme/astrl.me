@@ -55,7 +55,7 @@ const App = () => {
             <SquareArrowOutUpRight className="w-4 h-4"/> GitHub
           </a>
 
-          <a href="https://www.linkedin.com/in/" className="ml-4 flex items-center gap-2 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/furkan-k%C3%BC%C3%A7%C3%BCko%C4%9Flu-a98413343/" className="ml-4 flex items-center gap-2 hover:text-white transition-colors">
             <SquareArrowOutUpRight className="w-4 h-4" /> LinkedIn
           </a>
 
