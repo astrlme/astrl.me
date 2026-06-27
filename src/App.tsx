@@ -18,14 +18,27 @@ const App = () => {
         </header>
 
         <main className="flex-1 flex flex-col items-center justify-center space-y-4">
-          <section className="pb-4 text-white/70 text-[clamp(0.95rem,1.8vw,1.05rem)] leading-relaxed">
+          <section className="pb-4 text-white/70 text-[clamp(0.95rem,1.8vw,1.05rem)] leading-relaxed space-y-4">
             <p>
               Hi, I'm Furkan. a full-stack developer and DevOps-focused engineer
-              based in Turkey. I'm graduating soon and actively building
-              experience through hands-on projects. I enjoy developing reliable,
-              scalable applications and working across both development and
-              deployment to deliver complete solutions.
+              based in Turkey. I'm{" "}
+              <span className="line-through text-white/25">
+                graduating soon and
+              </span>{" "}
+              actively building experience through hands-on projects. I enjoy
+              developing reliable, scalable applications and working across both
+              development and deployment to deliver complete solutions.
             </p>
+            <div className="pt-4 border-t border-white/5 space-y-2">
+              <div className="text-white/40 text-xs font-semibold uppercase tracking-widest">
+                achievement unlocked
+              </div>
+              <img
+                src="/achievement.png"
+                alt="Achievement Made: The End?"
+                className="w-full max-w-70 border border-white/10 rounded-sm"
+              />
+            </div>
           </section>
 
           <section className="pt-8 border-t border-white/20 space-y-6 w-full">
@@ -92,10 +105,7 @@ const App = () => {
         onConfirm={confirm}
       />
 
-      <LabsDialog
-        open={labsModal.isOpen}
-        onClose={labsModal.close}
-      />
+      <LabsDialog open={labsModal.isOpen} onClose={labsModal.close} />
     </div>
   );
 };
