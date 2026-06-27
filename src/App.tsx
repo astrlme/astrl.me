@@ -13,11 +13,11 @@ const App = () => {
   return (
     <div className="flex justify-center min-h-screen px-[clamp(1.5rem,4vw,4rem)] py-[clamp(0.8rem,8vw,6rem)] selection:bg-white/20 selection:text-white">
       <div className="flex flex-col w-full max-w-[min(90vw,42rem)]">
-        <header className="flex items-center">
+        <header className="flex items-center pb-6">
           <img src="/astrl.png" alt="astrl" className="w-12 h-12" />
         </header>
 
-        <main className="flex-1 flex flex-col items-center justify-center space-y-4">
+        <main className="flex-1 flex flex-col items-center justify-start md:justify-center space-y-4 pt-4 md:pt-0 pb-8">
           <section className="pb-4 text-white/70 text-[clamp(0.95rem,1.8vw,1.05rem)] leading-relaxed space-y-4">
             <p>
               Hi, I'm Furkan. a full-stack developer and DevOps-focused engineer
@@ -36,7 +36,7 @@ const App = () => {
               <img
                 src="/achievement.png"
                 alt="Achievement Made: The End?"
-                className="w-full max-w-70 border border-white/10 rounded-sm"
+                className="w-full max-w-[clamp(240px,70vw,300px)] border border-white/10 rounded-sm"
               />
             </div>
           </section>
@@ -88,7 +88,7 @@ const App = () => {
 
           <a
             href="https://labs.astrl.me"
-            className="ml-auto flex items-center gap-2 hover:text-white transition-colors"
+            className="sm:ml-auto flex items-center gap-2 hover:text-white transition-colors"
             onClick={(e) => {
               e.preventDefault();
               labsModal.open();
