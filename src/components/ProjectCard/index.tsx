@@ -23,10 +23,10 @@ export function ProjectCard({ project, onExternalClick }: ProjectCardProps) {
       className="group block p-4 border border-white/10 rounded-lg hover:bg-white/2 transition-colors"
     >
       <div className="flex items-center justify-between mb-2">
-        <h3 className="font-medium text-white flex items-center gap-2">
+        <h2 className="font-medium text-white flex items-center gap-2">
           {projectIcons[project.title]}
           {project.title}
-        </h3>
+        </h2>
       </div>
       <p className="text-sm text-white/50">{project.description}</p>
     </a>

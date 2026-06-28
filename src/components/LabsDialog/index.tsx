@@ -17,20 +17,20 @@ export function LabsDialog({ open, onClose }: LabsDialogProps) {
     <Modal.Root open={open} onClose={onClose}>
       <Modal.Title className="flex items-center gap-2 mb-1">
         <AlertTriangle className="w-4 text-yellow-500" />
-        It&apos;s too dangerous to go there!
+        It's too dangerous to go there!
       </Modal.Title>
 
       <Modal.Description className="mb-5">
         astrl.me labs is currently under construction
       </Modal.Description>
 
-      <div className="border border-yellow-500/20 bg-yellow-500/5 rounded-lg px-3 py-2.5 font-mono text-xs text-yellow-500/80 mb-5 space-y-1">
+      <div className="border border-yellow-500/20 bg-yellow-500/5 rounded-lg px-3 py-2.5 font-mono text-sm text-yellow-500/80 mb-5 space-y-1">
         <div>$ status --check labs.astrl.me</div>
         <div className="text-white/60">status: coming_soon</div>
         <div className="text-white/60">hazard: radioactive_pixels</div>
       </div>
 
-      <p className="text-xs text-white/30 mb-6">
+      <p className="text-xs text-white/40 mb-6">
         {/*<AlertTriangle className="w-4 text-yellow-500" />*/}
         Proceed at your own risk. We are not responsible for lost socks or
         sanity in the labs zone.

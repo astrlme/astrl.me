@@ -81,7 +81,7 @@ export function ModalPortal({
           tabIndex={-1}
           className="
             pointer-events-auto
-            w-[min(360px,calc(100vw-2rem))]
+            w-[min(448px,calc(100vw-2rem))]
             rounded-2xl p-6
             bg-[#111] border border-white/10 shadow-2xl
             outline-none

@@ -19,16 +19,16 @@ export function ExternalLinkDialog({
         <SquareArrowOutUpRight className="w-3.5 h-3.5 text-white/40" />
         Leaving this site
       </Modal.Title>
-      
+
       <Modal.Description className="mb-5">
-        You&apos;re visiting an external link
+        You're visiting an external link
       </Modal.Description>
 
-      <div className="border border-white/10 rounded-lg px-3 py-2.5 font-mono text-xs text-white/60 truncate mb-5">
+      <div className="border border-white/10 rounded-lg px-3 py-2.5 font-mono text-sm text-white/60 truncate mb-5">
         {url && formatDisplayUrl(url)}
       </div>
 
-      <p className="text-xs text-white/30 mb-6">
+      <p className="text-xs text-white/40 mb-6">
         This is an external site. We are not responsible for its content or
         privacy practices.
       </p>

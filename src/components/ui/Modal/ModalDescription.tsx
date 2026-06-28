@@ -12,7 +12,7 @@ export function ModalDescription({
 }: DescriptionProps) {
   const { descriptionId } = useModalContext();
   return (
-    <p id={descriptionId} className={`text-xs text-white/40 ${className}`}>
+    <p id={descriptionId} className={`text-sm text-white/50 ${className}`}>
       {children}
     </p>
   );
